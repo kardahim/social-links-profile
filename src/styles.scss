@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Inter;
+  src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --accent-color: hsl(75, 94%, 57%);
+  --text-color: hsl(0, 0%, 100%);
+
+  --btn-color: hsl(0, 0%, 20%);
+  --card-color: hsl(0, 0%, 12%);
+  --background-color: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, "Times New Roman", Times, serif;
+}
