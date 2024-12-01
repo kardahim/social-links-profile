@@ -10,7 +10,7 @@
   --accent-color: hsl(75, 94%, 57%);
   --text-color: hsl(0, 0%, 100%);
 
-  --btn-color: hsl(0, 0%, 20%);
+  --button-color: hsl(0, 0%, 20%);
   --card-color: hsl(0, 0%, 12%);
   --background-color: hsl(0, 0%, 8%);
 }
@@ -20,4 +20,5 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, "Times New Roman", Times, serif;
+  font-size: 14px;
 }

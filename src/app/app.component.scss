@@ -1,0 +1,54 @@
+:host {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: block;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--card-color);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 385px;
+  width: 100%;
+
+  &__image-holder img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  &__name {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+  }
+
+  &__location {
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  &__description {
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.8;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+  }
+}
